@@ -1,0 +1,267 @@
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod init github.com/iampawans/golang
+go: creating new go.mod: module github.com/iampawans/golang
+go: to add module requirements and sums:
+        go mod tidy
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go get -u github.com/gorilla/mux
+go: downloading github.com/gorilla/mux v1.8.0
+go: added github.com/gorilla/mux v1.8.0
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go env
+set GO111MODULE=
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\ird\AppData\Local\go-build
+set GOENV=C:\Users\ird\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOEXPERIMENT=
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GOMODCACHE=C:\Users\ird\go\pkg\mod
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\ird\go
+set GOPRIVATE=
+set GOPROXY=https://proxy.golang.org,direct
+set GOROOT=C:\Program Files\Go
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLCHAIN=auto
+set GOTOOLDIR=C:\Program Files\Go\pkg\tool\windows_amd64
+set GOVCS=
+set GOVERSION=go1.21.3
+set GCCGO=gccgo
+set GOAMD64=v1
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=0
+set GOMOD=C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules\go.mod
+set GOWORK=
+set CGO_CFLAGS=-O2 -g
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-O2 -g
+set CGO_FFLAGS=-O2 -g
+set CGO_LDFLAGS=-O2 -g
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -fno-caret-diagnostics -Qunused-arguments -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\ird\AppData\Local\Temp\go-build2032715272=/tmp/go-build -gno-record-gcc-switches
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go env
+set GO111MODULE=
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\ird\AppData\Local\go-build
+set GOENV=C:\Users\ird\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOEXPERIMENT=
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GOMODCACHE=C:\Users\ird\go\pkg\mod
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\ird\go
+set GOPRIVATE=
+set GOPROXY=https://proxy.golang.org,direct
+set GOROOT=C:\Program Files\Go
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLCHAIN=auto
+set GOTOOLDIR=C:\Program Files\Go\pkg\tool\windows_amd64
+set GOVCS=
+set GOVERSION=go1.21.3
+set GCCGO=gccgo
+set GOAMD64=v1
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=0
+set GOMOD=C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules\go.mod
+set GOWORK=
+set CGO_CFLAGS=-O2 -g
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-O2 -g
+set CGO_FFLAGS=-O2 -g
+set CGO_LDFLAGS=-O2 -g
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -fno-caret-diagnostics -Qunused-arguments -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\ird\AppData\Local\Temp\go-build1977600374=/tmp/go-build -gno-record-gcc-switches
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go run main.go
+Lets learn MOD in GO...
+Ref: Mod - https://go.dev/ref/mod
+Using Go Mod - https://go.dev/blog/using-go-modules
+Hey Mod Users
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go get -u github.com/gorilla/mux
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go get -u github.com/gorilla/mux
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod init github.com/iampawans/mymodule
+go: C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules\go.mod already exists
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod init github.com/iampawans/mymodule
+go: creating new go.mod: module github.com/iampawans/mymodule
+go: to add module requirements and sums:
+        go mod tidy
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go get -u github.com/gorilla/mux
+go: added github.com/gorilla/mux v1.8.0
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod verify
+all modules verified
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod tidy
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go get -u github.com/gorilla/mux
+go: added github.com/gorilla/mux v1.8.0
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod tidy
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> 
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod verify
+all modules verified
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go list
+github.com/iampawans/mymodule
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go list all
+bufio
+bytes
+compress/flate
+compress/gzip
+container/list
+context
+crypto
+crypto/aes
+crypto/cipher
+crypto/des
+crypto/dsa
+crypto/ecdh
+crypto/ecdsa
+crypto/ed25519
+crypto/elliptic
+crypto/hmac
+crypto/internal/alias
+crypto/internal/bigmod
+crypto/internal/boring
+crypto/internal/boring/bbig
+crypto/internal/boring/sig
+crypto/internal/edwards25519
+crypto/internal/edwards25519/field
+crypto/internal/nistec
+crypto/internal/nistec/fiat
+crypto/internal/randutil
+crypto/md5
+crypto/rand
+crypto/rc4
+crypto/rsa
+crypto/sha1
+crypto/sha256
+crypto/sha512
+crypto/subtle
+crypto/tls
+crypto/x509
+crypto/x509/pkix
+embed
+encoding/asn1
+encoding/base64
+encoding/binary
+encoding/hex
+encoding/pem
+errors
+fmt
+github.com/gorilla/mux
+github.com/iampawans/mymodule
+hash
+hash/crc32
+internal/abi
+internal/bisect
+internal/bytealg
+internal/coverage/rtcov
+internal/cpu
+internal/fmtsort
+internal/goarch
+internal/godebug
+internal/godebugs
+internal/goexperiment
+internal/goos
+internal/intern
+internal/itoa
+internal/nettrace
+internal/oserror
+internal/poll
+internal/race
+internal/reflectlite
+internal/safefilepath
+internal/singleflight
+internal/syscall/execenv
+internal/syscall/windows
+internal/syscall/windows/registry
+internal/syscall/windows/sysdll
+internal/testlog
+internal/unsafeheader
+io
+io/fs
+log
+log/internal
+math
+math/big
+math/bits
+math/rand
+mime
+mime/multipart
+mime/quotedprintable
+net
+net/http
+net/http/httptrace
+net/http/internal
+net/http/internal/ascii
+net/netip
+net/textproto
+net/url
+os
+path
+path/filepath
+reflect
+regexp
+regexp/syntax
+runtime
+runtime/internal/atomic
+runtime/internal/math
+runtime/internal/sys
+sort
+strconv
+strings
+sync
+sync/atomic
+syscall
+time
+unicode
+unicode/utf16
+unicode/utf8
+unsafe
+vendor/golang.org/x/crypto/chacha20
+vendor/golang.org/x/crypto/chacha20poly1305
+vendor/golang.org/x/crypto/cryptobyte
+vendor/golang.org/x/crypto/cryptobyte/asn1
+vendor/golang.org/x/crypto/hkdf
+vendor/golang.org/x/crypto/internal/alias
+vendor/golang.org/x/crypto/internal/poly1305
+vendor/golang.org/x/net/dns/dnsmessage
+vendor/golang.org/x/net/http/httpguts
+vendor/golang.org/x/net/http/httpproxy
+vendor/golang.org/x/net/http2/hpack
+vendor/golang.org/x/net/idna
+vendor/golang.org/x/sys/cpu
+vendor/golang.org/x/text/secure/bidirule
+vendor/golang.org/x/text/transform
+vendor/golang.org/x/text/unicode/bidi
+vendor/golang.org/x/text/unicode/norm
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go list -m all
+github.com/iampawans/mymodule
+github.com/gorilla/mux v1.8.0
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go list -m -versions github.com/gorilla/mux
+github.com/gorilla/mux v1.2.0 v1.3.0 v1.4.0 v1.5.0 v1.6.0 v1.6.1 v1.6.2 v1.7.0 v1.7.1 v1.7.2 v1.7.3 v1.7.4 v1.8.0
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go list why github.com/gorilla/mux         
+package why is not in std (C:\Program Files\Go\src\why)
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod why github.com/gorilla/mux 
+# github.com/gorilla/mux
+github.com/iampawans/mymodule
+github.com/gorilla/mux
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod graph
+github.com/iampawans/mymodule github.com/gorilla/mux@v1.8.0
+github.com/iampawans/mymodule go@1.21.3
+go@1.21.3 toolchain@go1.21.3
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod edit -go 1.16
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go mod vendor
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules> go run -mod=vendor main.go
+PS C:\Users\ird\OneDrive - QlikTech Inc\Desktop\golang-IRD\mygolang-ird\23mymodules>
